@@ -10,7 +10,6 @@ function App() {
   socket.emit('connection', 'Hello!!');
   const [users, setUsers] = useState([...data]);
   const [userActive, setUserActive] = useState([]);
-  console.log(userActive)
   return (
     <div className="App">
       {

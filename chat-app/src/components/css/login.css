@@ -1,31 +1,37 @@
-:root {
-  --border-color: 1px solid rgb(207, 207, 207);
-  --button-green: rgb(45, 139, 45);
-}
 
 .form-login {
-  width: 280px;
+  position: absolute;
+  z-index: 2;
+  width: 70%;
+  min-width: 280px;
   display: flex;
+  gap: 1.5rem;
+  height: calc(100vh - 6rem);
+  align-items: center;
+  justify-content: center;
   flex-direction:column;
-  gap: 1rem;
   padding: 0 1rem;
   padding-bottom: 2rem;
-  background: #fff;
-  box-shadow: 0 0 5px 2px rgb(211, 211, 211);
+  background: rgba(255, 255, 255, 0.877);
+  box-shadow: 0 0 1px 1px rgba(241, 241, 241, 0.788);
 }
 
 h2{
   width: 100%;
   text-align: center;
-  padding: 1rem;
   box-sizing: border-box;
+  color: rgb(104, 50, 6);
+  height: fit-content;
 }
 
 input {
-  width: 100%;
+  width: 280px;
   height: 2rem;
   box-sizing: border-box;
   outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid var(--button-access);
 }
 
 input[type="email"],
@@ -34,8 +40,23 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-  background: var(--button-green);
+  background: var(--button-access);
   color: #fff;
   border: none;
   cursor:pointer;
+}
+
+.copy {
+  color: rgb(146, 146, 146);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  font-size: 12px;
+  margin-top: 2rem;
+}
+
+.logotype{
+  font-size: medium;
+  color: var(--button-access);
+  background: red;
 }

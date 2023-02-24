@@ -1,13 +1,13 @@
 const users = [
   {
-    name: 'Camila',
-    email: 'holamundo@gmail.com',
-    password: "login",
+    name: 'Narda',
+    email: 'pajarapinta@gmail.com',
+    password: "puredecerebros*",
   },
   {
-    name: 'Andrés',
-    email: 'micorreo@gmail.com',
-    password: "login",
+    name: 'Karen',
+    email: 'c@gmail.com',
+    password: "123",
   }
 ]
 
